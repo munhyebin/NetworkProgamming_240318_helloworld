@@ -42,6 +42,7 @@
       1. show_정한()
       2. show_승관()
       3. -> templates에 context 전달
+      4. 정보를 하나로 묶고, 거기에서 꺼내오자
    2. templates/세븐틴/
       1. ~~정한.html~~
          1. title: 세븐틴 - 정한
