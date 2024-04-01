@@ -41,14 +41,17 @@
    1. views
       1. show_정한()
       2. show_승관()
+      3. -> templates에 context 전달
    2. templates/세븐틴/
-      1. 정한.html
+      1. ~~정한.html~~
          1. title: 세븐틴 - 정한
          2. h1: 세븐틴
          3. h2: 정한
          4. img: 정한 프로필 사진
             1. border-radius: 50%
-      2. 승관.html
+      2. ~~승관.html~~
+      3. 멤버.html
+         1. group_name, name, img_src
    3. urls
       1. 세븐틴/ -> 정한/ -> show_정한()
       2. 세븐틴/ -> 승관/ -> show_승관()
