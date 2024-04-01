@@ -39,10 +39,11 @@
          1. '세븐틴', in INSTALLED_APPS
 6. 세븐틴/
    1. views
-      1. show_정한()
-      2. show_승관()
+      1. ~~show_정한()~~
+      2. ~~show_승관()~~
       3. -> templates에 context 전달
       4. 정보를 하나로 묶고, 거기에서 꺼내오자
+      5. show_멤버()
    2. templates/세븐틴/
       1. ~~정한.html~~
          1. title: 세븐틴 - 정한
@@ -54,5 +55,6 @@
       3. 멤버.html
          1. group_name, name, img_src
    3. urls
-      1. 세븐틴/ -> 정한/ -> show_정한()
-      2. 세븐틴/ -> 승관/ -> show_승관()
+      1. ~~세븐틴/ -> 정한/ -> show_정한()~~
+      2. ~~세븐틴/ -> 승관/ -> show_승관()~~
+      3. 세븐틴/ -> <멤버>/ -> show_멤버(멤버)
