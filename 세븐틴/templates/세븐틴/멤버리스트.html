@@ -20,9 +20,9 @@
     {% for member in members %}
         <tr>
             {# 멤버이름에 링크 : 세븐틴/{{ member.name }}/   #}
-            <td><a href="//localhost:8000/세븐틴/{{ member.name }}/">{{ member.name }}</a></td>    #//:인터넷 절대주소
-            <td><a href="../../세븐틴/{{ member.name }}">{{ member.name }}</a></td>    #../../ : 부모/부모/ (상대주소)
-            <td><a href="/세븐틴/{{ member.name }}/">{{ member.name }}</a></td>    #호스트 루트(절대주소)
+            <td><a href="//localhost:8000/세븐틴/{{ member.name }}/">{{ member.name }} </a> # //:인터넷 절대주소</td>
+            <td><a href="../../세븐틴/{{ member.name }}">{{ member.name }}</a>  #../../ : 부모/부모/ (상대주소)</td>
+            <td><a href="/세븐틴/{{ member.name }}/">{{ member.name }}</a>  #호스트 루트(절대주소)</td>
             <td><a href="">{{ member.name }}</a></td>      #
             {% load static %}
             <td><img src="{% static member.img_src %}" alt="" style="height: 100px; border-radius: 50%"></td>
@@ -31,4 +31,4 @@
 
 </table>
 </body>
-</html>
+</html>7d
